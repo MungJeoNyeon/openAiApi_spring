@@ -7,7 +7,7 @@ openAi_api_java_spring_backend
     openai.api.url=https://api.openai.com/v1/chat/completions
 
 # Reference materials
-<https://platform.openai.com/docs/overview>
+<https://platform.openai.com/docs/api-reference/chat>
     
 <https://cookbook.openai.com/>
 
