@@ -14,3 +14,5 @@ openAi_api_java_spring_backend
     playground 를 활용하면 좋다.
 
 <img width="807" alt="image" src="https://github.com/MungJeoNyeon/openAiApi_spring/assets/113886994/9ca49348-0943-4cbd-b484-9fe2c982f1c4">
+
+![Uploading image.png…]()
