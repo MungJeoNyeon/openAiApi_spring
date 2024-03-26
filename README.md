@@ -15,4 +15,6 @@ openAi_api_java_spring_backend
 
 <img width="807" alt="image" src="https://github.com/MungJeoNyeon/openAiApi_spring/assets/113886994/9ca49348-0943-4cbd-b484-9fe2c982f1c4">
 
+        질문: 사용자마다 가지는 특정 조건을 제시해봐 몸무게 키 성별 목적(근육량 증가, 다이어트 등등)
+        
 <img width="1747" alt="image" src="https://github.com/MungJeoNyeon/openAiApi_spring/assets/113886994/84059dc4-c42f-487e-ba07-9583959eea07">
