@@ -15,4 +15,4 @@ openAi_api_java_spring_backend
 
 <img width="807" alt="image" src="https://github.com/MungJeoNyeon/openAiApi_spring/assets/113886994/9ca49348-0943-4cbd-b484-9fe2c982f1c4">
 
-![Uploading image.png…]()
+<img width="1747" alt="image" src="https://github.com/MungJeoNyeon/openAiApi_spring/assets/113886994/84059dc4-c42f-487e-ba07-9583959eea07">
