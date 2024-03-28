@@ -11,6 +11,8 @@ Ai를 이용해 개인화 맞춤형 건강한 식단, 운동, 영양제 추천�
 <br>
 
 ## WBS
+[WBS_Health_5team.xlsx](https://github.com/MungJeoNyeon/openAiApi_spring/files/14785153/WBS_Health_5team.xlsx)
+
 
 <br>
 
