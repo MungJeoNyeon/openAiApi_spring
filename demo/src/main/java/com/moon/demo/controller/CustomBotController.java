@@ -33,10 +33,9 @@ public class CustomBotController {
         // front 에서 사용자가 입력한 request prompt를 백엔드로 가져옴.
         // request prompt를 ChatGptRequest 의 request 에 보낸다.
 
-        prompt = "15살, 남성, 160cm, 목적은 근육량 증가 그리고 키가 크는거야. " +
-                "자세하게 식단과 운동 방법을 설명해줘. " +
-                "그리고 목적에 도움이 되는 영양제를 추천해줘." +
-                "보기 쉽게 알려줘.";
+        //
+
+        prompt = "20살, 키 170cm, 남성, 목적은 근육량 증가. 도움이 될 만한 식단을 만들어줘, 운동도 알려줘. 영양제도 추천해줘.";
 
         logger.info("Received request URL: /chat?prompt={}", prompt);
 
