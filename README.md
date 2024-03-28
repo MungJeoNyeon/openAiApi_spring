@@ -3,6 +3,10 @@ Ai를 이용해 개인화 맞춤형 건강한 식단, 운동, 영양제 추천�
 
 - Java 8
 - Spring Boot
+- naver cloud db for mysql
+    <https://guide.ncloud-docs.com/docs/clouddbformysql-overviews>
+    <https://velog.io/@devmizz/DevOps-%EB%84%A4%EC%9D%B4%EB%B2%84-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-DB-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0>
+- 
 
 <br>
 
