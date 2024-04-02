@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+</head>
+<body>
+<div id="chatBox">
+    <!-- 채팅 메시지가 여기에 표시됩니다 -->
+</div>
+<input type="text" id="userInput" placeholder="메시지 입력..."/>
+<button onclick="sendMessage()">전송</button>
+
+<script>
+    function sendMessage() {
+        var text = document.getElementById("userInput").value;
+        var url = '/bot/chat?prompt=' + encodeURIComponent(text);
+        fetch(url, {
+            method: 'GET',
+        })
+            .then(response => response.json())
+            .then(data => {
+                var chatBox = document.getElementById("chatBox");
+                var message = document.createElement("div");
+
+                message.textContent = "You: " + text + "\n" + "Response: " + data.choices[0].message.content; // 예제 응답 구조에 맞게 수정
+                chatBox.appendChild(message);
+                document.getElementById("userInput").value = "";
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
+</script>
+</body>
+</html>

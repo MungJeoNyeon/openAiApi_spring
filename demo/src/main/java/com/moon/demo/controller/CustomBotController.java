@@ -29,24 +29,15 @@ public class CustomBotController {
     private RestTemplate template;
 
     @GetMapping("/chat")
-    public String chat(@RequestParam(value = "prompt", required = false) String prompt) {
-        // front 에서 사용자가 입력한 request prompt를 백엔드로 가져옴.
-        // request prompt를 ChatGptRequest 의 request 에 보낸다.
-
-        //
-
-        prompt = "20살, 키 170cm, 남성, 목적은 근육량 증가. 도움이 될 만한 식단을 만들어줘, 운동도 알려줘. 영양제도 추천해줘.";
-
+    public ChatGptResponse chat(@RequestParam(value = "prompt", required = false) String prompt) {
         logger.info("Received request URL: /chat?prompt={}", prompt);
 
-        // ChatGptRequest request 하기 전에 front에서 prompt 값을 요청받으면 된다.
         ChatGptRequest request = new ChatGptRequest(model, prompt);
         ChatGptResponse chatGptResponse = template.postForObject(apiURL, request, ChatGptResponse.class);
 
-        String responseContent = chatGptResponse.getChoices().get(0).getMessage().getContent();
+        logger.info("Response from GPT: {}", chatGptResponse);
 
-        logger.info("Response : {}", responseContent);
-
-        return responseContent;
+        // Directly return the response object
+        return chatGptResponse;
     }
 }
