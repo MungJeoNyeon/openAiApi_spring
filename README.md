@@ -76,7 +76,7 @@ Ai를 이용해 개인화 맞춤형 건강한 식단, 운동, 영양제 추천�
 ## postman api test
 <img width="807" alt="image" src="https://github.com/MungJeoNyeon/openAiApi_spring/assets/113886994/9ca49348-0943-4cbd-b484-9fe2c982f1c4">
 
-## run response 값 
+## prompt 값 
         질문: 사용자마다 가지는 특정 조건을 제시, 몸무게 키 성별 목적(근육량 증가, 다이어트 등등)
         
 <img width="1747" alt="image" src="https://github.com/MungJeoNyeon/openAiApi_spring/assets/113886994/84059dc4-c42f-487e-ba07-9583959eea07">
